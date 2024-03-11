@@ -3,7 +3,7 @@ package pruebasunitarias;
 
 /**
  *
- * @author William Zapata
+ * @author WilliamZapataMolina
  */
 public class Calculadora {
 

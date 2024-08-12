@@ -15,6 +15,10 @@ public class PruebasUnitarias {
         Calculadora calculator1 = new Calculadora();
         int resultado1 = (int) calculator1.restar(8, 3);
         System.out.println("El resultado de la resta es:" + resultado1);
+        
+        Calculadora calculator2 = new Calculadora();
+        int resultado2 = (int) calculator2.multiplicar(8, 3);
+        System.out.println("El resultado de la multiplicación es:" + resultado2);
 
     }
 

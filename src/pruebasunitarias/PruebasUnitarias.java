@@ -15,16 +15,16 @@ public class PruebasUnitarias {
         Calculadora calculator1 = new Calculadora();
         int resultado1 = (int) calculator1.restar(8, 3);
         System.out.println("El resultado de la resta es:" + resultado1);
-        
+
         Calculadora calculator2 = new Calculadora();
         int resultado2 = (int) calculator2.multiplicar(8, 3);
         System.out.println("El resultado de la multiplicación es:" + resultado2);
-        
-        try{
+
+        try {
             Calculadora calculadora3 = new Calculadora();
             int resultado3 = (int) calculadora3.dividir(8, 5);
             System.out.println("El resultado de la división es: " + resultado3);
-        }catch(ArithmeticException error){
+        } catch (ArithmeticException error) {
             System.out.println("Error: " + error.toString());
         }
     }
